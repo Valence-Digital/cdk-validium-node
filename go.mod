@@ -1,6 +1,6 @@
 module github.com/0xPolygonHermez/zkevm-node
 
-go 1.21
+go 1.23
 
 require (
 	github.com/0xPolygonHermez/zkevm-data-streamer v0.2.3-RC4
@@ -18,7 +18,7 @@ require (
 	github.com/jackc/pgconn v1.14.1
 	github.com/jackc/pgx/v4 v4.18.1
 	github.com/mitchellh/mapstructure v1.5.0
-	github.com/prometheus/client_model v0.5.0
+	github.com/prometheus/client_model v0.6.3
 	github.com/prometheus/common v0.45.0
 	github.com/rubenv/sql-migrate v1.6.1
 	github.com/spf13/afero v1.11.0
@@ -31,7 +31,7 @@ require (
 	golang.org/x/net v0.20.0
 	golang.org/x/sync v0.5.0
 	google.golang.org/grpc v1.60.1
-	google.golang.org/protobuf v1.32.0
+	google.golang.org/protobuf v1.36.12
 	gopkg.in/yaml.v2 v2.4.0
 	gopkg.in/yaml.v3 v3.0.1
 )
